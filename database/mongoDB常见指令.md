@@ -9,3 +9,6 @@
 >db.collection.find().sort(num) 排序返回查找到的数据 num可为1或-1
 >db.collection.update(options,newdata) 找到符合options的数据并更新为newdata
 >db.save() 直接保存数据(不管会不会重复)
+>$set:{} 更改某键值对的数据
+>db.collection.count() 返回某表数据量
+>$lt/$gt 小于/大于某条件
